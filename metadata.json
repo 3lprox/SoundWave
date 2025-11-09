@@ -1,0 +1,5 @@
+{
+  "name": "SoundWave AI",
+  "description": "A modern music player where you can listen to a curated playlist or upload your own tracks. Features AI-powered track description generation using Gemini.",
+  "requestFramePermissions": []
+}
