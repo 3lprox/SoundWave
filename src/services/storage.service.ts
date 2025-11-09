@@ -32,7 +32,7 @@ export class StorageService {
 
     // For this simulation, we'll continue to use a local blob URL.
     // A real implementation would return the `download_url` from the GitHub API response, e.g.:
-    // 'https://raw.githubusercontent.com/{owner}/{repo}/main/uploads/track.mp3'
+    // 'https://raw.github.com/3lprox/SoundWave/blob/main/music.mp3$0}'
     const publicUrl = URL.createObjectURL(file);
     
     console.log(`GitHub upload finished for ${file.name}. Public URL: ${publicUrl}`);

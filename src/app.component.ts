@@ -16,13 +16,14 @@ export class AppComponent {
   storageService = inject(StorageService);
 
   // Playlist State
-  // Note: Added your track from the public repository at the top of the playlist.
   playlist = signal<Track[]>([
-    { id: 1, title: 'Music', artist: '3lprox', audioSrc: 'https://raw.githubusercontent.com/3lprox/SoundWave/main/music.mp3', coverArt: 'https://picsum.photos/seed/yourtrack/200' },
-    { id: 2, title: 'Midnight City', artist: 'M83', audioSrc: 'https://raw.githubusercontent.com/AI-Maker-Space/SoundWave/main/MusicFiles/M83-Midnight-City.mp3', coverArt: 'https://picsum.photos/seed/midnight/200' },
-    { id: 3, title: 'Intro', artist: 'The xx', audioSrc: 'https://raw.githubusercontent.com/AI-Maker-Space/SoundWave/main/MusicFiles/The-xx-Intro.mp3', coverArt: 'https://picsum.photos/seed/intro/200' },
-    { id: 4, title: 'Genesis', artist: 'Grimes', audioSrc: 'https://raw.githubusercontent.com/AI-Maker-Space/SoundWave/main/MusicFiles/Grimes-Genesis.mp3', coverArt: 'https://picsum.photos/seed/genesis/200' },
-    { id: 5, title: 'Electric Feel', artist: 'MGMT', audioSrc: 'https://raw.githubusercontent.com/AI-Maker-Space/SoundWave/main/MusicFiles/MGMT-Electric-Feel.mp3', coverArt: 'https://picsum.photos/seed/electric/200' },
+    // ¡Tu canción de GitHub ha sido añadida!
+    { id: 1, title: 'Tu Música (music.mp3)', artist: '3lprox', audioSrc: 'https://raw.githubusercontent.com/3lprox/SoundWave/main/music.mp3', coverArt: 'https://picsum.photos/seed/3lprox/200' },
+    { id: 2, title: 'Vagues', artist: 'Anton Vlasov', audioSrc: 'https://cdn.pixabay.com/download/audio/2022/10/19/audio_174i-v-a-g-u-e-s-2101.mp3', coverArt: 'https://picsum.photos/seed/vagues/200' },
+    { id: 3, title: 'Midnight City', artist: 'M83', audioSrc: 'https://raw.githubusercontent.com/AI-Maker-Space/SoundWave/main/MusicFiles/M83-Midnight-City.mp3', coverArt: 'https://picsum.photos/seed/midnight/200' },
+    { id: 4, title: 'Intro', artist: 'The xx', audioSrc: 'https://raw.githubusercontent.com/AI-Maker-Space/SoundWave/main/MusicFiles/The-xx-Intro.mp3', coverArt: 'https://picsum.photos/seed/intro/200' },
+    { id: 5, title: 'Genesis', artist: 'Grimes', audioSrc: 'https://raw.githubusercontent.com/AI-Maker-Space/SoundWave/main/MusicFiles/Grimes-Genesis.mp3', coverArt: 'https://picsum.photos/seed/genesis/200' },
+    { id: 6, title: 'Electric Feel', artist: 'MGMT', audioSrc: 'https://raw.githubusercontent.com/AI-Maker-Space/SoundWave/main/MusicFiles/MGMT-Electric-Feel.mp3', coverArt: 'https://picsum.photos/seed/electric/200' },
   ]);
   
   // Player State
